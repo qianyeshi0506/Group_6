@@ -1,0 +1,18 @@
+-----------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/irenepodovsovnik/Library/CloudStorage/OneDrive-Persönlich/Kings College Lo
+> ndon/Environmental Economics/Data Report/EE-data-report/Workshop stata/stata_workshop.log
+  log type:  text
+ opened on:  25 Nov 2025, 15:56:58
+
+. 
+. display 5+4 
+9
+
+. log close 
+      name:  <unnamed>
+       log:  /Users/irenepodovsovnik/Library/CloudStorage/OneDrive-Persönlich/Kings College Lo
+> ndon/Environmental Economics/Data Report/EE-data-report/Workshop stata/stata_workshop.log
+  log type:  text
+ closed on:  25 Nov 2025, 15:56:58
+-----------------------------------------------------------------------------------------------

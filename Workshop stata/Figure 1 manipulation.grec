@@ -1,0 +1,43 @@
+StataFileTM:00001:01100:GREC:                          :
+00008:00008:00001:
+*! classname: twowaygraph_g
+*! family: twoway
+*! date: 25 Nov 2025
+*! time: 15:22:12
+*! graph_scheme: stcolor
+*! naturallywhite: 1
+*! end
+
+// File created by Graph Editor Recorder.
+// Edit only if you know what you are doing.
+
+.title.style.editstyle size(medium) editcopy
+.title.text = {}
+.title.text.Arrpush Figure 1. this is a very nice graph
+.title.style.editstyle color(dkgreen) editcopy
+// title edits
+
+.title.DragBy 0 2.610966057441241
+// title reposition
+
+.title.DragBy .1450536698578541 -3.771395416304017
+// title reposition
+
+.title.DragBy 0 6.962576153176677
+// title reposition
+
+.title.style.editstyle drawbox(yes) editcopy
+.title.style.editstyle linestyle(color(gold)) editcopy
+// title edits
+
+.title.DragBy 0 4.061502756019745
+// title reposition
+
+.title.DragBy 0 -10.15375689004933
+// title reposition
+
+.title.DragBy 0 1.595590368436357
+// title reposition
+
+
+// <end>
