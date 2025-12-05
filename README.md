@@ -209,6 +209,8 @@ Supports DID identification validity.
 
 </details>
 
+---
+
 # 📈 GitHub Stats
 
 <p align="center">
