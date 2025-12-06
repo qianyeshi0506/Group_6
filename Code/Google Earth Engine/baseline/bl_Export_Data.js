@@ -1,4 +1,4 @@
-// ================= Region Definition and Processing ======================
+//================= Region Definition and Processing ======================
 //Import boundaries
 var innerULEZ = ee.FeatureCollection("projects/animated-tracer-478120-q3/assets/InnerUltraLowEmissionZone");
 var ulez2023 = ee.FeatureCollection("projects/animated-tracer-478120-q3/assets/Ultra_Low_Emission_Zone");
@@ -114,7 +114,7 @@ var extractBandValues = function(date) {
     .atan2(era5Day.select('v_wind')).add(Math.PI)
     .multiply(180/Math.PI);
   var windDirection = windDirRad.rename('WindDirection');
-  // 相对湿度
+  // humidity
   var tempC   = era5Day.select('Temperature').subtract(273.15);
   var dewC    = era5Day.select('Dewpoint').subtract(273.15);
   var rh = dewC.expression(
@@ -127,7 +127,7 @@ var extractBandValues = function(date) {
     }
   ).rename('RH');
   
-  // merge all bands
+  // ========================merge all bands=====================
   var combinedImage = no2Image
     .addBands(era5Day)
     .addBands(windSpeed)
