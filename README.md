@@ -102,10 +102,9 @@ Meteorological variables used as controls:
 ├─ 📂 Code
 │   │
 │   ├─ 📂 Google Earth Engine
-│   │   ├─ master.js (if applicable)
 │   │   └─ 📂 baseline
-│   │       └─ (baseline GEE scripts)
-│   │
+│   │       ├─ bl_Export_Data.js
+│   │       └─ bl_Visualisation.js
 │   └─ 📂 Stata
 │       ├─ master.do                 
 │       │
